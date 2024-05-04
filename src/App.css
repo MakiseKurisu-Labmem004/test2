@@ -1,0 +1,23 @@
+/* styles.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 在垂直方向上居中 */
+    align-items: center; /* 在水平方向上居中 */
+    height: 100vh; /* 设置容器的高度为视口的高度，使其铺满整个视口 */
+}
+
+.title {
+    color: #8787ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #9371ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
